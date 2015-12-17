@@ -53,12 +53,12 @@ function fizzBuzz(amount) {
 
   for (var i = 1; i <= amount; i++) {
     output = "";
-    if (i % 3 === 0) { output = "Fizz" };
-    if (i % 5 === 0) { output += "Buzz" };
+    if (i % 3 === 0) { output = "Fizz" }
+    if (i % 5 === 0) { output += "Buzz" }
     console.log(output || i);
   }
 }
-FizzBuzz(100);
+fizzBuzz(100);
 
 // Problem 7
 function randomNumber(max) {
